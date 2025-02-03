@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertisement Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .main-content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .advertisement {
+            background-color: #e9ecef;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .advertisement img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .advertisement h3 {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .advertisement p {
+            font-size: 16px;
+            color: #555;
+        }
+        .advertisement a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .advertisement a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Welcome to Our Advertisement Website</h1>
+</div>
+
+<div class="main-content">
+    <div class="advertisement">
+        <img src="https://via.placeholder.com/1200x400" alt="Advertisement Image">
+        <h3>Special Discount on All Products!</h3>
+        <p>Get up to 50% off on selected items. Don't miss out on this limited-time offer! Shop now and save big.</p>
+        <a href="#" onclick="viewAdDetails()">Click to Learn More</a>
+    </div>
+
+    <div class="advertisement">
+        <img src="https://via.placeholder.com/1200x400" alt="Advertisement Image">
+        <h3>Exclusive Web Hosting Offer</h3>
+        <p>Get premium web hosting services starting at just $3.99/month. Reliable, fast, and secure hosting for your website.</p>
+        <a href="#" onclick="viewAdDetails()">Click to Learn More</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Advertisement Website | All Rights Reserved</p>
+</footer>
+
+<script>
+    function viewAdDetails() {
+        alert("You clicked on an advertisement. In a real application, you'd redirect the user to a product or offer page.");
+    }
+</script>
+
+</body>
+</html>
